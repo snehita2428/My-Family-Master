@@ -14,6 +14,7 @@ import 'family_dialog.dart';
 import 'db.dart';
 import 'user_dailog.dart';
 
+void main() => runApp(MyHomePage());
 class MyHomePage extends StatefulWidget {
   final String title = "My Family";
 

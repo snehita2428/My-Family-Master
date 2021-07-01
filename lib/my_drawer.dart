@@ -5,7 +5,6 @@ import 'package:my_family/main_todo.dart';
 import 'login_screen.dart';
 import 'become_member.dart';
 import 'starter_page.dart';
-import 'package:my_family/page/home_page.dart';
 
 class MyDrawer extends StatelessWidget {
   MyDrawer({@required this.name});
@@ -98,7 +97,7 @@ class MyDrawer extends StatelessWidget {
             ),
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()));
+                  MaterialPageRoute(builder: (context) => ToDoListApp()));
             },
           ),
           ListTile(
